@@ -654,12 +654,8 @@ function Footer() {
           </div>
           <span className="text-white font-bold font-mono">Codefolio</span>
         </div>
-        <p className="text-gray-600 text-sm">© 2026 Codefolio. Built with Joy by Satvik Vansh.</p>
-        <div className="flex items-center gap-6 text-sm text-gray-500">
-          {["Contact"].map((l) => (
-            <a key={l} href="https://satvikvansh.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">{l}</a>
-          ))}
-        </div>
+        <p className="text-gray-600 text-sm">© 2026 Codefolio. Built with Joy by Devansh Bist</p>
+
       </div>
     </footer>
   );
